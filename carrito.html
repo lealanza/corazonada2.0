@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Corazonada</title>
+</head>
+<div class="wrapper">
+    <aside>
+        <header>
+            <div class="logo"></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="btn-cart"><i class="fa-solid fa-backward"></i>Volver</a></li>
+
+                    <li><a href="carrito.html" class="btn-cart active"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <footer>
+            <p>&copy; 2022 Leandro Lanza</p>
+        </footer>
+    </aside>
+    <main>
+        <h2 class="titulo-principal">Carrito de Compras</h2>
+        <div class="div-container-carrito">
+            <p class="carrito-vacio">Tu carrito esta vacio <i class="fa-solid fa-face-sad-tear"></i></p>
+            <div class="div-products-active">
+                <div class="div-product-active">
+                    <div class="div-img-product-cart"></div>
+                    <div class="div-titulo-producto-cart">
+                        <small>Nombre</small>
+                        <h3></h3>
+                    </div>
+                    <div class="div-cantidad-producto-cart">
+                        <small>Cantidad</small>
+                        <p></p>
+                    </div>
+                    <div class="div-precio-producto-cart">
+                        <small>Precio</small>
+                        <p></p>
+                    </div>
+                    <div class="div-subtotal-producto-cart">
+                        <small>Subtotal</small>
+                        <p></p>
+                    </div>
+                    <button class="carito-delete">
+                        <i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+            <div class="carrito-acciones">
+                <div class="div-carrito-izquierda">
+                    <button class="action-delete-cart">Vaciar carrito</button>
+                </div>
+                <div class="div-carrito-derecha">
+                    <div class="div-carrito-total">
+                        <p>Total</p>
+                        <p id="total"></p>
+                    </div>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</div>
