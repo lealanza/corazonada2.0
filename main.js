@@ -1,7 +1,7 @@
 productos = [
     {
         id:"1",
-        titulo:"mano en el corazon",
+        titulo:"Mano en el corazon",
         imagen:"./img/foto1.jpeg",
         categoria:{
             id:"corazones",
@@ -12,7 +12,7 @@ productos = [
     },
     {
         id:"2",
-        titulo:"madera-tallada",
+        titulo:"Madera-tallada",
         imagen:"./img/foto2.jpeg",
         categoria:{
             id:"tallados",
@@ -32,7 +32,7 @@ productos = [
 
     }, {
         id:"4",
-        titulo:"corazon nochea de las estrellas",
+        titulo:"Corazon nochea de las estrellas",
         imagen:"./img/foto4.jpeg",
         categoria:{
             id:"corazones",
@@ -42,7 +42,7 @@ productos = [
 
     }, {
         id:"5",
-        titulo:"corazon con alas",
+        titulo:"orazon con alas",
         imagen:"./img/foto5.jpeg",
         categoria:{
             id:"corazones",
@@ -52,7 +52,7 @@ productos = [
 
     }, {
         id:"6",
-        titulo:"corazon dentro de una cajita",
+        titulo:"Corazon dentro de una cajita",
         imagen:"./img/foto6.jpeg",
         categoria:{
             id:"corazones",
@@ -62,13 +62,133 @@ productos = [
 
     }, {
         id:"7",
-        titulo:"corazon con alas por el mundo",
+        titulo:"Corazon con alas por el mundo",
         imagen:"./img/foto7.jpeg",
         categoria:{
             id:"",
             nombre:"Corazon",
         },
         precio:"$3200",
+    }, {
+        id:"6",
+        titulo:"Corazon dentro de una cajita",
+        imagen:"./img/foto6.jpeg",
+        categoria:{
+            id:"corazones",
+            nombre:"Corazon",
+        },
+        precio:"$5400",
+
+    }, {
+        id:"6",
+        titulo:"Corazon dentro de una cajita",
+        imagen:"./img/foto6.jpeg",
+        categoria:{
+            id:"corazones",
+            nombre:"Corazon",
+        },
+        precio:"$5400",
+
+    }, {
+        id:"6",
+        titulo:"Corazon dentro de una cajita",
+        imagen:"./img/foto6.jpeg",
+        categoria:{
+            id:"corazones",
+            nombre:"Corazon",
+        },
+        precio:"$5400",
+
+    }, {
+        id:"6",
+        titulo:"Corazon dentro de una cajita",
+        imagen:"./img/foto6.jpeg",
+        categoria:{
+            id:"corazones",
+            nombre:"Corazon",
+        },
+        precio:"$5400",
+
+    }, {
+        id:"6",
+        titulo:"Corazon dentro de una cajita",
+        imagen:"./img/foto6.jpeg",
+        categoria:{
+            id:"corazones",
+            nombre:"Corazon",
+        },
+        precio:"$5400",
+
+    }, {
+        id:"6",
+        titulo:"Corazon dentro de una cajita",
+        imagen:"./img/foto6.jpeg",
+        categoria:{
+            id:"corazones",
+            nombre:"Corazon",
+        },
+        precio:"$5400",
+
+    }, {
+        id:"6",
+        titulo:"Corazon dentro de una cajita",
+        imagen:"./img/foto6.jpeg",
+        categoria:{
+            id:"corazones",
+            nombre:"Corazon",
+        },
+        precio:"$5400",
+
+    }, {
+        id:"6",
+        titulo:"Corazon dentro de una cajita",
+        imagen:"./img/foto6.jpeg",
+        categoria:{
+            id:"corazones",
+            nombre:"Corazon",
+        },
+        precio:"$5400",
+
+    }, {
+        id:"6",
+        titulo:"Corazon dentro de una cajita",
+        imagen:"./img/foto6.jpeg",
+        categoria:{
+            id:"corazones",
+            nombre:"Corazon",
+        },
+        precio:"$5400",
+
+    }, {
+        id:"6",
+        titulo:"Corazon dentro de una cajita",
+        imagen:"./img/foto6.jpeg",
+        categoria:{
+            id:"corazones",
+            nombre:"Corazon",
+        },
+        precio:"$5400",
+
+    }, {
+        id:"6",
+        titulo:"Corazon dentro de una cajita",
+        imagen:"./img/foto6.jpeg",
+        categoria:{
+            id:"corazones",
+            nombre:"Corazon",
+        },
+        precio:"$5400",
+
+    }, {
+        id:"6",
+        titulo:"Corazon dentro de una cajita",
+        imagen:"./img/foto6.jpeg",
+        categoria:{
+            id:"corazones",
+            nombre:"Corazon",
+        },
+        precio:"$5400",
+
     }
 ]
 

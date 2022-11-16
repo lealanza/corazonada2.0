@@ -49,9 +49,30 @@ a{
 }
 .prodcuto-imagen{
     max-width: 100%;
-    border-radius: 2rem;
-    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px var(--color6);    
+}
+.navBarList>ul>li>button{
+    color: var(--color1);
+    gap: 10px;
+}
+.navBarList>ul>li{
     
+}
+.btn-categoria, .btd-add-product{
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: transparent;
+    gap: 1rem;
+    margin: 0.2rem;
+    color: var(--color6);
+
+}
+.active{
+    color: var(--color6);
+    background-color: var(--color2);
+    
+    float: inline-end;
 }
 
 aside{
