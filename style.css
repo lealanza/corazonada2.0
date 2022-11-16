@@ -31,7 +31,54 @@ a{
     max-width: 150px;
     height: 150px;
 }
+.menu{ 
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 
+.btn-categoria{
+    background-color: transparent;
+    border: 0;
+    color: var(--color6);
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn-categoria.active{
+    background-color: var(--color2);
+    width: 100%;
+    color: var(--color4);
+    padding: 10px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    position: relative;
+}
+.btn-categoria.active::before{
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 2rem;
+    right: 0;
+    bottom: 100%;
+    background-color: transparent;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 0 1rem 0 var(--color2);
+}
+.btn-categoria.active::after{
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 2rem;
+    right: 0;
+    top: 100%;
+    background-color: transparent;
+    border-top-right-radius: 1rem;
+    box-shadow: 0 -1rem 0 var(--color2);
+}
+.btn-carrito{
+    margin-top: 2rem;
+}
 
 .wrapper{
     display: grid;
@@ -46,37 +93,59 @@ a{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
+    
+}
+
+.producto{
+    box-shadow: 0px 0px 10px black;
+    border-radius: 2rem;
 }
 .prodcuto-imagen{
     max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px var(--color6);    
+    border-radius: 2rem;
 }
-.navBarList>ul>li>button{
-    color: var(--color1);
-    gap: 10px;
+.productos-detalles{
+    margin-top: -2rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    position: relative;
+    background-color: var(--color5);
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
 }
-.navBarList>ul>li{
-    
+.productos-detalles>h3{
+    font-size: 1.5rem;
+    color: var(--color4);
 }
-.btn-categoria, .btd-add-product{
-    padding: 0.5rem;
-    border-radius: 10px;
-    border: transparent;
-    gap: 1rem;
-    margin: 0.2rem;
+.productos-detalles>p{
+    font-size: 1.3rem;
     color: var(--color6);
+}
 
-}
-.active{
+.btd-add-product{
+    border: 0;
+    padding: .3rem;
     color: var(--color6);
-    background-color: var(--color2);
-    
-    float: inline-end;
+    border: 3px solid var(--color4);
+    border-radius: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color:  var(--color4);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
+
+.btd-add-product:hover{
+    background-color: var(--color5);
+    color: var(--color4);
+}
+
 
 aside{
     padding: 2rem;
+    padding-right: 0;
     color: var(--color4);
     position: sticky;
     height: 100vh;

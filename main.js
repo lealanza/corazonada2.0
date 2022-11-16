@@ -42,7 +42,7 @@ productos = [
 
     }, {
         id:"5",
-        titulo:"orazon con alas",
+        titulo:"Corazon con alas",
         imagen:"./img/foto5.jpeg",
         categoria:{
             id:"corazones",
@@ -65,130 +65,10 @@ productos = [
         titulo:"Corazon con alas por el mundo",
         imagen:"./img/foto7.jpeg",
         categoria:{
-            id:"",
+            id:"corazones",
             nombre:"Corazon",
         },
         precio:"$3200",
-    }, {
-        id:"6",
-        titulo:"Corazon dentro de una cajita",
-        imagen:"./img/foto6.jpeg",
-        categoria:{
-            id:"corazones",
-            nombre:"Corazon",
-        },
-        precio:"$5400",
-
-    }, {
-        id:"6",
-        titulo:"Corazon dentro de una cajita",
-        imagen:"./img/foto6.jpeg",
-        categoria:{
-            id:"corazones",
-            nombre:"Corazon",
-        },
-        precio:"$5400",
-
-    }, {
-        id:"6",
-        titulo:"Corazon dentro de una cajita",
-        imagen:"./img/foto6.jpeg",
-        categoria:{
-            id:"corazones",
-            nombre:"Corazon",
-        },
-        precio:"$5400",
-
-    }, {
-        id:"6",
-        titulo:"Corazon dentro de una cajita",
-        imagen:"./img/foto6.jpeg",
-        categoria:{
-            id:"corazones",
-            nombre:"Corazon",
-        },
-        precio:"$5400",
-
-    }, {
-        id:"6",
-        titulo:"Corazon dentro de una cajita",
-        imagen:"./img/foto6.jpeg",
-        categoria:{
-            id:"corazones",
-            nombre:"Corazon",
-        },
-        precio:"$5400",
-
-    }, {
-        id:"6",
-        titulo:"Corazon dentro de una cajita",
-        imagen:"./img/foto6.jpeg",
-        categoria:{
-            id:"corazones",
-            nombre:"Corazon",
-        },
-        precio:"$5400",
-
-    }, {
-        id:"6",
-        titulo:"Corazon dentro de una cajita",
-        imagen:"./img/foto6.jpeg",
-        categoria:{
-            id:"corazones",
-            nombre:"Corazon",
-        },
-        precio:"$5400",
-
-    }, {
-        id:"6",
-        titulo:"Corazon dentro de una cajita",
-        imagen:"./img/foto6.jpeg",
-        categoria:{
-            id:"corazones",
-            nombre:"Corazon",
-        },
-        precio:"$5400",
-
-    }, {
-        id:"6",
-        titulo:"Corazon dentro de una cajita",
-        imagen:"./img/foto6.jpeg",
-        categoria:{
-            id:"corazones",
-            nombre:"Corazon",
-        },
-        precio:"$5400",
-
-    }, {
-        id:"6",
-        titulo:"Corazon dentro de una cajita",
-        imagen:"./img/foto6.jpeg",
-        categoria:{
-            id:"corazones",
-            nombre:"Corazon",
-        },
-        precio:"$5400",
-
-    }, {
-        id:"6",
-        titulo:"Corazon dentro de una cajita",
-        imagen:"./img/foto6.jpeg",
-        categoria:{
-            id:"corazones",
-            nombre:"Corazon",
-        },
-        precio:"$5400",
-
-    }, {
-        id:"6",
-        titulo:"Corazon dentro de una cajita",
-        imagen:"./img/foto6.jpeg",
-        categoria:{
-            id:"corazones",
-            nombre:"Corazon",
-        },
-        precio:"$5400",
-
     }
 ]
 
@@ -202,7 +82,7 @@ cargarProductos= ()=> {
         div.classList.add('producto');
         div.innerHTML =`<div class="producto">
         <img class="prodcuto-imagen" src="${producto.imagen}">
-        <div>
+        <div class="productos-detalles">
             <h3 class="producto-titulo">${producto.titulo}</h3>
             <p class="producto-precio">${producto.precio}</p>
             <button class="btd-add-product" id="${producto.id}">Agregar</button>
