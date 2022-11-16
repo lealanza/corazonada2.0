@@ -32,7 +32,7 @@ productos = [
 
     }, {
         id:"4",
-        titulo:"Corazon nochea de las estrellas",
+        titulo:"La noche estrellada",
         imagen:"./img/foto4.jpeg",
         categoria:{
             id:"corazones",
@@ -52,7 +52,7 @@ productos = [
 
     }, {
         id:"6",
-        titulo:"Corazon dentro de una cajita",
+        titulo:"Corazon brillante",
         imagen:"./img/foto6.jpeg",
         categoria:{
             id:"corazones",
@@ -62,7 +62,7 @@ productos = [
 
     }, {
         id:"7",
-        titulo:"Corazon con alas por el mundo",
+        titulo:"Corazon viajero",
         imagen:"./img/foto7.jpeg",
         categoria:{
             id:"corazones",
@@ -74,12 +74,10 @@ productos = [
 
 const divProductos = document.getElementById('div-container-productos');
 const btnCategory = document.querySelectorAll('btn-categoria');
-
-
 cargarProductos= ()=> {
     productos.forEach(producto =>{
         const div = document.createElement('div');
-        div.classList.add('producto');
+       /* div.classList.add('producto');*/
         div.innerHTML =`<div class="producto">
         <img class="prodcuto-imagen" src="${producto.imagen}">
         <div class="productos-detalles">
@@ -92,10 +90,7 @@ cargarProductos= ()=> {
         divProductos.append(div);
     })
 }
-
-
 cargarProductos();
-
 btnCategory.forEach(boton => {
     boton.addEventListener("click", (e) => {
         e.currentTarget.classList.add('active');
