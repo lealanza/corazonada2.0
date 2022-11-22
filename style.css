@@ -81,9 +81,6 @@ color: var(--color6);}
     border-top-right-radius: 1rem;
     box-shadow: 0 -1rem 0 var(--color2);
 }
-.btn-carrito{
-    margin-top: 2rem;
-}
 
 .wrapper{
     display: grid;
@@ -152,7 +149,7 @@ color: var(--color6);}
 
 
 aside{
-    padding: 2rem;
+    padding: 2.5rem;
     padding-right: 0;
     color: var(--color4);
     position: sticky;
@@ -169,4 +166,26 @@ main{
     margin-left: 0rem;
     border-radius: 2.5rem;
     padding: 2rem;
+}
+
+.numerito{
+    display: flex;
+    text-align: center;
+    font-size: 6px;
+    color:var(--color6);
+    position: relative;
+    left: 8px;
+    top: -15px;
+}
+li>a{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    margin: 0.5rem;
+}
+.btn-carrito{
+    text-align: center;
+    scale: 1.7;
+    color: var(--color4);
+   
 }
